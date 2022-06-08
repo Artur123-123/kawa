@@ -9,15 +9,15 @@ function kawa(){
         wynik.innerHTML='Koszt zamówienia wynosi '+koszt+' zł'
     }
         else {
-            if(numer = 1) {
+            if(numer == 1) {
             koszt = 5 * waga
             wynik.innerHTML='Koszt zamówienia wynosi '+koszt+' zł'
             }
-            if(numer = 2) {
+            if(numer == 2) {
             koszt = 7 * waga
             wynik.innerHTML='Koszt zamówienia wynosi '+koszt+' zł'
             }
-            if(numer = 3) {
+            if(numer == 3) {
             koszt = 6 * waga
             wynik.innerHTML='Koszt zamówienia wynosi '+koszt+' zł'
             }
